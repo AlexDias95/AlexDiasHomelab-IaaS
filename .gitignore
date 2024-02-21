@@ -1,3 +1,2 @@
-ProxmoxBackup01/.terraform/providers/registry.terraform.io/telmate/proxmox/3.0.1-rc1/darwin_arm64/LICENSE
-ProxmoxBackup01/.terraform/providers/registry.terraform.io/telmate/proxmox/3.0.1-rc1/darwin_arm64/README.md
-ProxmoxBackup01/.terraform/providers/registry.terraform.io/telmate/proxmox/3.0.1-rc1/darwin_arm64/terraform-provider-proxmox_v3.0.1-rc1
+.terraform/
+.terraform*
