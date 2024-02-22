@@ -7,7 +7,7 @@ resource "proxmox_vm_qemu" "TerminalServer01" {
   agent                       = 1
   args                        = null
   automatic_reboot            = false
-  balloon                     = null
+  balloon                     = 0
   bios                        = "ovmf"
   boot                        = "order=scsi0;ide2;net0;ide0"
   bootdisk                    = null
