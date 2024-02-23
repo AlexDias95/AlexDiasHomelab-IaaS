@@ -7,7 +7,7 @@ resource "proxmox_vm_qemu" "TerminalServer01" {
   agent                       = 1
   args                        = null
   automatic_reboot            = false
-  balloon                     = 4096
+  balloon                     = 0
   bios                        = "ovmf"
   boot                        = "order=scsi0;ide2;net0;ide0"
   bootdisk                    = null
@@ -18,7 +18,7 @@ resource "proxmox_vm_qemu" "TerminalServer01" {
   clone                       = null
   clone_wait                  = null
   cloudinit_cdrom_storage     = null
-  cores                       = 4
+  cores                       = 2
   cpu                         = "host"
   define_connection_info      = false
   desc                        = null
@@ -47,7 +47,7 @@ resource "proxmox_vm_qemu" "TerminalServer01" {
   iso                         = null
   kvm                         = true
   machine                     = "q35"
-  memory                      = 8192
+  memory                      = 2048
   name                        = "TerminalServer01"
   nameserver                  = null
   numa                        = false
