@@ -2,7 +2,7 @@
 # Please review these resources and move them into your main configuration files.
 
 # __generated__ by Terraform from "pve01/vm/203"
-resource "proxmox_vm_qemu" "DKube03" {
+resource "proxmox_vm_qemu" "vm" {
   additional_wait             = null
   agent                       = 0
   args                        = null
