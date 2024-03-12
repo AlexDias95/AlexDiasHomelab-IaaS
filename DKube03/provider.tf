@@ -17,4 +17,7 @@ provider "proxmox" {
 
 provider "guacamole" {
   disable_tls_verification = true
+  url      = "$${GUACAMOLE_URL}"
+  username = "$${GUACAMOLE_USERNAME}"
+  password = "$${GUACAMOLE_PASSWORD}"
 }
