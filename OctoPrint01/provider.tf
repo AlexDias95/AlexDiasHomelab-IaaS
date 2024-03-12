@@ -10,3 +10,7 @@ terraform {
 provider "proxmox" {
 
 }
+
+provider "guacamole" {
+  disable_tls_verification = true
+}
